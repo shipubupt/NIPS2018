@@ -7,11 +7,10 @@ The pipeline is built upon the py-MDNet tracker for your reference: https://gith
 Note that our DAT tracker does not require offline training using tracking sequences.
 
 ##Usage
-<pre><code>
 1. Download [VGG-M](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-m.mat) (matconvnet model) and save as "models/imagenet-vgg-m.mat"
 2. cd tracking
    python demo.py
-</code></pre>
+
 
 <p>If you find the code useful, please cite both DAT and MDNet:</p>
 
