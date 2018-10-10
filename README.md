@@ -8,7 +8,7 @@ Note that our DAT tracker does not require offline training using tracking seque
 
 ##Usage
 1. Download [VGG-M](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-m.mat) (matconvnet model) and save as "models/imagenet-vgg-m.mat"
-2. cd tracking
+2. cd tracking     
    python demo.py
 
 
