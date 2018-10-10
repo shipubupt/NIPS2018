@@ -4,7 +4,7 @@ The project page can be found here:
 https://ybsong00.github.io/nips18_tracking/index.     
 
 The pipeline is built upon the py-MDNet tracker for your reference: https://github.com/HyeonseobNam/py-MDNet.   
-Note that our DAT tracker does not require offline training.
+Note that our DAT tracker does not require offline training.     
 Try 'tracking/demo.m' to see the tracker performance on the football sequences.   
 
 <p>If you find the code useful, please cite both DAT and MDNet:</p>
