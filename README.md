@@ -6,7 +6,7 @@ https://ybsong00.github.io/nips18_tracking/index.
 The pipeline is built upon the py-MDNet tracker for your reference: https://github.com/HyeonseobNam/py-MDNet.   
 Note that our DAT tracker does not require offline training using tracking sequences.
 
-#Usage
+##Usage
 <pre><code>
 1. Download VGG-M (matconvnet model) and save as "models/imagenet-vgg-m.mat"
 2. cd tracking
