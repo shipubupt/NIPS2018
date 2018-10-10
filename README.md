@@ -3,6 +3,7 @@ This is the implementation of our DAT paper "Deep Attentive Tracking via Recipro
 ".      
 The project page can be found here:
 https://ybsong00.github.io/nips18_tracking/index.     
+
 The pipeline is built upon the py-MDNet tracker for your reference: https://github.com/HyeonseobNam/py-MDNet.  
 Try 'tracking/demo.m' to see the tracker performance on the football sequences.   
 
