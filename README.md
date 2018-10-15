@@ -5,8 +5,11 @@ https://ybsong00.github.io/nips18_tracking/index.
 
 The pipeline is built upon the py-MDNet tracker for your reference: https://github.com/HyeonseobNam/py-MDNet.   
 Note that our DAT tracker does not require offline training using tracking sequences.
+# Prerequisites
+- python 2.7
+- PyTorch 0.2.0_3 and its dependencies
 
-#Usage
+# Usage
 1. Download [VGG-M](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-m.mat) (matconvnet model) and save as "DAT/models/imagenet-vgg-m.mat"
 2. cd DAT/tracking     
    python demo.py
