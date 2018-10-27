@@ -6,6 +6,7 @@ https://ybsong00.github.io/nips18_tracking/index.
 The pipeline is built upon the py-MDNet tracker for your reference: https://github.com/HyeonseobNam/py-MDNet.   
 Note that our DAT tracker does not require offline training using tracking sequences.
 # Prerequisites
+- GPU: NVIDIA GeForce GTX 1080 Ti
 - CUDA 8.0.61
 - python 2.7.14
 - PyTorch 0.2.0_3 and its dependencies
