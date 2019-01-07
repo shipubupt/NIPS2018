@@ -11,6 +11,10 @@ Note that our DAT tracker does not require offline training using tracking seque
 - python 2.7.14
 - PyTorch 0.2.0_3 and its dependencies
 
+# Note
+If you use our code based on a high-level version of PyTorch for other tasks, please ensure the "retain_graph=True, create_graph=True" in the backward function. Otherwise, the attention map cannot be used to update the parameters.
+Thank @Lu Zhou for checking the bug out.
+
 # Usage
 1. Download [VGG-M](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-m.mat) (matconvnet model) and save as "DAT/models/imagenet-vgg-m.mat"
 2. cd DAT/tracking     
